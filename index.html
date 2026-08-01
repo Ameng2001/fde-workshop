@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FDE 实战工作坊 · 教材</title>
+<meta name="description" content="FDE 实战工作坊教材：八课 L1–L8 + 专题课 S1–S3，每课含讲师课件与学员手册。">
+<style>
+  :root{--bg:#fbfbfc;--surface:#fff;--border:#e5e7eb;--text-1:#111827;--text-2:#4b5563;--text-3:#9ca3af;--accent:#1e3a5f;--purple:#7c3aed}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1115;--surface:#171a21;--border:#2a2f3a;--text-1:#f3f4f6;--text-2:#c3c8d2;--text-3:#7c8494;--accent:#8fb4e3}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text-1);
+    font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:900px;margin:0 auto;padding:56px 24px 72px}
+  h1{font-size:34px;line-height:1.2;margin:0 0 10px;letter-spacing:-.01em}
+  .sub{color:var(--text-2);font-size:16px;margin:0 0 28px}
+  .cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+    padding:13px 26px;border-radius:9px;font-weight:700;font-size:16px}
+  .cta.alt{background:var(--purple)}
+  .row{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 0}
+  h2{font-size:15px;color:var(--text-3);text-transform:uppercase;letter-spacing:.1em;
+    margin:44px 0 14px;font-weight:700}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:15px 17px}
+  .card b{display:block;font-size:15px;margin-bottom:3px}
+  .card span{font-size:13.5px;color:var(--text-2)}
+  .card a{color:inherit;text-decoration:none}
+  .card a:hover b{color:var(--accent)}
+  .note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:9px;padding:14px 17px;font-size:14px;color:var(--text-2);margin-top:32px}
+  .note b{color:var(--text-1)}
+  kbd{background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:1px 6px;font-size:12px}
+  footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--border);
+    color:var(--text-3);font-size:13px}
+  footer a{color:var(--text-2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>FDE 实战工作坊</h1>
+  <p class="sub">八课 L1–L8 + 专题课 S1–S3 · 每课两件产物：<b>讲师课件</b>（口播稿在演讲者备注）+ <b>学员手册</b>（可打印）</p>
+
+  <div class="row">
+    <a class="cta" href="./slides/index.html">进入课程总览 →</a>
+    <a class="cta alt" href="./00_八课总纲.html">先读八课总纲</a>
+  </div>
+
+  <h2>主干八课</h2>
+  <div class="grid">
+    <div class="card"><a href="./slides/L1_FDE总论.html"><b>L1 · FDE 总论</b><span>纯讲解 · 唯一没有实操的一课</span></a></div>
+    <div class="card"><a href="./slides/L2_项目与工具.html"><b>L2 · 项目与工具</b><span>认领命题 · 装环境</span></a></div>
+    <div class="card"><a href="./slides/L3_采集信息.html"><b>L3 · 采集信息</b><span>错了无法在下游补救的一环</span></a></div>
+    <div class="card"><a href="./slides/L4_萃取与建模.html"><b>L4 · 认知萃取 + 领域建模</b><span>零件与装配线</span></a></div>
+    <div class="card"><a href="./slides/L5_本体与设闸.html"><b>L5 · 本体建模 + 设闸</b><span>全课重心 · 产出能跑的插件</span></a></div>
+    <div class="card"><a href="./slides/L6_文档工程.html"><b>L6 · 文档工程</b><span>交付物与合规治理</span></a></div>
+    <div class="card"><a href="./slides/L7_原型开发.html"><b>L7 · 原型开发</b><span>demo 可信度分级</span></a></div>
+    <div class="card"><a href="./slides/L8_能力沉淀.html"><b>L8 · 总结与能力沉淀</b><span>结课路演 · 能力定级</span></a></div>
+  </div>
+
+  <h2>专题课（选修，一条线，终点是 L5）</h2>
+  <div class="grid">
+    <div class="card"><a href="./slides/S1_本体论.html"><b>S1 · 本体论</b><span>本体是什么、为什么必须有</span></a></div>
+    <div class="card"><a href="./slides/S2_本体引擎.html"><b>S2 · 本体引擎的工程实现</b><span>一张图讲完运行时端</span></a></div>
+    <div class="card"><a href="./slides/S3_建模端与引擎.html"><b>S3 · 建模端如何支撑引擎</b><span>怎么给它编译应用 · 交棒 L5</span></a></div>
+  </div>
+
+  <div class="note">
+    <b>课件怎么用</b>：按 <kbd>S</kbd> 打开演讲者窗口（当前页 + 下一页 + 口播稿 + 计时），<kbd>N</kbd> 拉出备注抽屉，<kbd>O</kbd> 总览，<kbd>← →</kbd> 翻页。<b>投屏侧看不到备注。</b><br>
+    <b>学员手册</b>在 <a href="./slides/index.html">课程总览</a>里每课的白色按钮，浏览器直接打印成 PDF 即可发给学员。
+  </div>
+
+  <footer>
+    教材源在 <a href="https://github.com/Ameng2001/clife-onto-engine/tree/main/docs/tutorial">clife-onto-engine / docs/tutorial</a>（唯一真相源，本站自动同步）·
+    运行时端 <a href="https://github.com/Ameng2001/clife-onto-engine">clife-onto-engine</a> ·
+    建模端 <a href="https://github.com/Ameng2001/astra-studio-plugins/tree/main/studio-ontology">studio-ontology</a>
+  </footer>
+
+</div>
+</body>
+</html>
